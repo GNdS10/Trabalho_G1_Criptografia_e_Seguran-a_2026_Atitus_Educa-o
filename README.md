@@ -4,7 +4,7 @@ Trabalho da disciplina - Criptografia e Segurança
 
 Aluno: Gabriel Nogueira dos Santos
 
----
+
 
 ## Descrição
 
@@ -14,38 +14,37 @@ As mensagens enviadas entre os clientes são criptografadas utilizando **AES-128
 
 Também foi utilizado **HMAC com SHA-256** para verificar a integridade das mensagens,  que permite detectar se houve alterações durante a transmissão.
 
----
+
 
 ## Algoritmos utilizados
 
 - **AES-128** → criptografia das mensagens
 - **HMAC SHA-256** → integridade das mensagens
 
----
+
 
 ## Instalação
 
-```CMD
+CMD
 pip install cryptography
 ```
 
----
 
 ### Servidor
 
-```CMD
+CMD
 python server.py
-```
+
 
 ### Clientes
 
-```CMD
+CMD
 python client.py
-```
+
 
 Executar em dois terminais para testar a troca de mensagens.
 
----
+
 
 ## Arquivos do projeto
 
