@@ -1,50 +1,57 @@
 # Sistema de Chat Seguro
 
-Trabalho da disciplina - Criptografia e Segurança
+Trabalho da disciplina de ** Criptografia e Segurança**
 
-Aluno: Gabriel Nogueira dos Santos
+## 
+Gabriel Nogueira dos Santos 
+RA:1127692
 
-
+---
 
 ## Descrição
 
 O projeto consiste em um sistema de chat em rede no modelo cliente-servidor.
 
-As mensagens enviadas entre os clientes são criptografadas utilizando **AES-128**, que garante a cofindencialidade dos dados
+As mensagens enviadas entre os clientes são criptografadas utilizando **AES-128**, onde, garante a confidencialidade dos dados.
 
-Também foi utilizado **HMAC com SHA-256** para verificar a integridade das mensagens,  que permite detectar se houve alterações durante a transmissão.
+Também foi utilizado **HMAC com SHA-256** para verificar a integridade das mensagens, que permite detectar alterações durante a transmissão.
 
-
+---
 
 ## Algoritmos utilizados
 
 - **AES-128** → criptografia das mensagens
 - **HMAC SHA-256** → integridade das mensagens
 
-
+---
 
 ## Instalação
 
-CMD
+```bash
 pip install cryptography
 ```
 
+---
+
+## Execução
 
 ### Servidor
 
-CMD
+```bash
 python server.py
-
+```
 
 ### Clientes
 
-CMD
+```bash
 python client.py
-
-
+```
+```bash
+python client.py
+```
 Executar em dois terminais para testar a troca de mensagens.
 
-
+---
 
 ## Arquivos do projeto
 
