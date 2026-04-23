@@ -1,0 +1,1 @@
+# Trabalho_G1_Criptografia_e_Seguran-a_2026_Atitus_Educa-o
